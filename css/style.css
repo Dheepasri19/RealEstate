@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+#one {
+    background-image: url(../img/one.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.blog::after{
+    content: "";
+    display: block;
+    background-color: green;
+    width: 24rem;
+    height: 0.2rem;
+}
+
+
+
+.testimonials .carousel-item {
+    padding-left: 2rem;
+}
+.testimonials .testimonial-text{
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+.testimonials .testimonial-text::before{
+    content: open-quote;
+    font-size: 3rem;
+    position: absolute;
+    left: -2rem;  
+    font-weight: 900;
+    
+}
+
